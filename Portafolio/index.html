@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="shortcut icon" href="assets/miIcon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--Para comenzar con una correcta estructura, empezamos con la etiqueta Header para la cabecera de la página-->
+    <header class="hero">
+        <div class="navbar">
+            <img src="assets/libro.png" class="logo" alt="logo">
+            <!--Seguimos con los botones de navegación-->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="https://sandroescate18.blogspot.com/">Blog</a></li>
+                    <li><a href="registro/registro.html">Say Hi!</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="hero__container container">
+            <!--Para empezar con el titulo agregaré un h1 y complementaré con una imagen-->
+            <div class="hero__texts">
+                <h1 class="hero__title">Sandro Escate Sifuentes</h1>
+                <p class="hero__copy">Soy experto en Ciberseguridad, me apasiona mucho la tecnología. Mi objetivo es convertirme en uno de los mejores.</p>
+                <a href="assets/MiCurriculum.pdf" download="MICV.pdf" class="hero__cta">Download CV</a>    
+            </div>
+
+            <img src="assets/Book.svg" class="hero__img">
+
+        </div>
+
+    </header>
+    <!--Termina el header-->
+    <article class="main">
+        <!--Comienza la sección de autor-->
+        <section class="instructor container">
+            
+            <div class="instructor__container">
+                <img src="assets/perfil.jpg" class="instructor__img">
+                <h2 class="instructor__name">Sandro Escate Sifuentes</h2>
+                <p class="instructor__tag">Ingeniero de Ciberseguridad</p>
+            </div>
+
+        </section>
+
+        <section class="about container">
+
+            <div class="about__course">
+                <h2 class="title title--border">La Ciberseguridad Actualmente</h2>
+
+                <p class="about__paragraph">En la actualidad nos encontramos sumergidos en la era digital que pasamos por alto los peligros que conlleva navegar sin precacución por el internet, es por esto que todas las personas debemos tomar conciencia y sobre todo tener sentido común al navegar.</p>
+
+                <p class="about__paragraph">Muchos Ciberdelincuentes todos los días intentan apoderarse de lo ajeno, datos de empresas, datos de personas, etc. Es por esto que la ciberseguridad se ha convertido en una pieza necesaria dentro de nuestro mundo cada vez más tecnológico y digital, ya que es la encargada de proteger nuestros dispositivos y nuestra seguridad y privacidad cuando navegamos por la Red.</p>
+
+                <a href="https://sandroescate18.blogspot.com/" class="cta">Ir a mi Blog</a>
+            </div>
+
+            <figure class="about__picture">
+                <img src="assets/leyendo.svg" class="about__img">
+            </figure>
+
+        </section>
+        <!--Sección de categorias de libros más solicitados-->
+        <section class="card">
+            <div class="container">
+
+                <h2 class="title">Ciberamenazas más comunes</h2>
+                <p class="card__copy">Estas son las Ciberamenazas más comunes presentadas por IBM.</p>
+
+                <div class="card__container">
+
+                    <div class="card__item">
+                        <figure class="card__img">
+                            <img src="assets/superacion.png" class="card__picture">
+                        </figure>
+                        <h3 class="card__title">Ataque DDoS</h3>
+                        <p class="card__paragraph">Un ataque DDoS intenta hacer caer un servidor, un sitio web o una red sobrecargándola con tráfico, generalmente desde varios sistemas coordinados. Los ataques DDoS agobian las redes empresariales a través del protocolo simple de gestión de red (SNMP), utilizado para módems, impresoras, conmutadores, routers y servidores.</p>
+                    </div>
+
+                    <div class="card__item">
+                        <figure class="card__img">
+                            <img src="assets/historia.png" class="card__picture">
+                        </figure>
+                        <h3 class="card__title">Ransomware</h3>
+                        <p class="card__paragraph">Ransomware es un tipo de programa malicioso que bloquea archivos, datos o sistemas y amenaza con borrar o destruir los datos, o con publicar los datos privados o confidenciales, a menos que se pague un rescate a los ciberdelincuentes responsables del ataque. Los últimos ataques de ransomware se han dirigido a gobiernos estatales y locales, que son más fáciles de quebrantar que las organizaciones</p>
+                    </div>
+
+                    <div class="card__item">
+                        <figure class="card__img">
+                            <img src="assets/psicologia.png" class="card__picture">
+                        </figure>
+                        <h3 class="card__title">Phishing/ingeniería social</h3>
+                        <p class="card__paragraph">Phishing es una forma de ingeniería social que engaña a los usuarios para que proporcionen su información confidencial. En las estafas de phishing, los correos electrónicos o mensajes de texto parecen ser de una empresa legítima que solicita información confidencial, como datos de tarjeta de crédito o información de inicio de sesión.</p>
+                    </div>
+                    
+                    <div class="card__item">
+                        <figure class="card__img">
+                            <img src="assets/animales.png" class="card__picture">
+                        </figure>
+                        <h3 class="card__title">
+                            Programas maliciosos</h3>
+                        <p class="card__paragraph">El término "programa malicioso" se refiere a variantes de software malicioso, como gusanos, virus y troyanos, que proporcionan acceso no autorizado o causan daños a un sistema. Los ataques de programas maliciosos son cada vez más "sin archivos" y están diseñados para eludir los métodos de detección más comunes, como las herramientas antivirus.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="course container">
+
+            <figure class="course__picture">
+                <img src="assets/web1.svg" class="course__img">
+            </figure>
+            <!--Sección para comprar nuestros productos-->
+            <div class="course__about">
+                <h2 class="title">LO QUE OCURRE SI SUFRES UN ATAQUE CIBERNÉTICO</h2>
+                <p class="about__paragraph">
+                    - Imposibilidad de acceder a tu web y para hacerlo, piden un rescate, lo que viene siendo un ataque de ransomware.<br>
+                    - Robo de los ficheros y archivos más importantes de tu organización.
+                    - Impiden emitir facturas o cobros.<br>
+                    - Se producen suplantaciones de identidad. El phishing es uno de los ataques cibernéticos más comunes en los últimos tiempos.<br>
+                    - Hacer pagos indebidos.<br>
+                    - Incremento en la factura de la luz o el teléfono
+                </p>
+                <a href="registro/registro.html" class="cta">Send Mail</a>
+            </div>
+        </section>
+    </article>
+    <!--La parte final de nuestra página web-->
+    <footer class="footer">
+        <div class="footer__container container">
+
+            <div class="footer__contact">
+                <div class="footer__texts">
+                    <h2 class="title">¿Tienes algunda duda?</h2>
+                    <p class="footer__copy">Si tienes alguna duda, puedes contactarme en cualquiera de mis redes sociales.</p>
+                    <!--Nuestras redes sociales-->
+                    <div class="footer__social">
+                        <a href="https://www.facebook.com/profile.php?id=100087533088367" class="footer__link">
+                           <img src="assets/bxl-facebook.svg" class="footer__icon">
+                        </a>
+                        <a href="https://twitter.com/escate_sandro" class="footer__link">
+                           <img src="assets/bxl-twitter.svg" class="footer__icon">
+                        </a>
+                        <a href="https://www.youtube.com/" class="footer__link">
+                           <img src="assets/bxl-youtube.svg" class="footer__icon">
+                        </a>
+                        <a href="https://www.instagram.com/sandro_escate18/" class="footer__link">
+                           <img src="assets/bxl-instagram.svg" class="footer__icon">
+                        </a>
+                    </div>
+                </div>
+                
+                <figure class="footer__picture">
+                    <img src="assets/message-ilustration.svg" class="footer__img">
+                </figure>
+            </div>
+            
+            <p class="footer__copyright">
+                Sitio web creado por &copy; Sandro Escate :</p>
+        </div>
+    </footer>
+    <!--Archivos Javascript para efecto scroll-->
+    <script src="js/scrollreveal.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
